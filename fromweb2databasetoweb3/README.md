@@ -27,7 +27,7 @@ The GET returns the entire DB (following the order of insertion, with relative i
 curl --location 'http://127.0.0.1:4943/get_row_db?canisterId=ctiya-peaaa-aaaaa-qaaja-cai'
 ```
 
-Output example in JSON:
+Output /get_row_db example in JSON:
 ```json
 {
   "0": {
@@ -51,5 +51,9 @@ Output example in JSON:
 }
 ```
 
-On ICP, in the backend part, you can see getDB() to get the DB as an array. 
+On ICP, in the backend part, you can see getDB() to get the DB as an array.
+Output getDB() example in JSON:
+```json
+[{"id":"23","qty":"10","cityDestination":"City_A","supplier":"Company_Y","productType":"leather","companyName":"Company_X","cityOrigin":"City_B"},{"id":"7","qty":"100","cityDestination":"City_C","supplier":"Company_W","productType":"leather","companyName":"Company_Z","cityOrigin":"City_D"}]
+```
 "# fromweb2databasetoweb3" 
