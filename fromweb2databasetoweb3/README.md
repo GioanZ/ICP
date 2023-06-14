@@ -56,4 +56,3 @@ Output getDB() example in JSON:
 ```json
 [{"id":"23","qty":"10","cityDestination":"City_A","supplier":"Company_Y","productType":"leather","companyName":"Company_X","cityOrigin":"City_B"},{"id":"7","qty":"100","cityDestination":"City_C","supplier":"Company_W","productType":"leather","companyName":"Company_Z","cityOrigin":"City_D"}]
 ```
-"# fromweb2databasetoweb3" 
